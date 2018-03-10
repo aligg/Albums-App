@@ -10,5 +10,6 @@ const App = () => (
   </View>
   )
 
+// reminder, the root component for the app must have flex of 1 to enable scrolling
 // reminder, fat arrow function has implicit return
 AppRegistry.registerComponent('albums', () => App)
